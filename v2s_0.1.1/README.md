@@ -65,8 +65,6 @@ ANTHROPIC_MODEL=claude-sonnet-4-6
 VISION2STEP_MAX_TOKENS=3500
 ```
 
-Never commit the populated `.env` file.
-
 ## Analyze an object
 
 Analyze one image:
@@ -136,17 +134,6 @@ pytest
 - Hidden geometry remains inferred or unknown.
 - Claude's spatial measurements are approximate and require later geometric validation.
 - Transparent, reflective, deformable, and highly organic objects are poor initial targets.
-
-## Troubleshooting
-
-### `The compiled grammar is too large`
-
-This error affected the original v1.0 analyzer contract. Schema v1.2 keeps the Claude
-output grammar to two nested definitions and includes a size-regression test. Confirm that
-the generated artifact reports both `artifact_version` and `schema_version` as `1.2`.
-
-See [`docs/architecture.md`](docs/architecture.md) for the stage boundary and
-[`docs/roadmap.md`](docs/roadmap.md) for planned work.
 
 ## License
 
