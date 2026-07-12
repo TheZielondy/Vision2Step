@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "shape_type": "Compound",
+  "solid_count": 1,
+  "dimensions_mm": {
+    "x": 117.18919373930632,
+    "y": 27.720000199999998,
+    "z": 10.0000002
+  },
+  "volume_mm3": 20924.12512118172,
+  "area_mm2": 7160.712302981799,
+  "step_reopened": true,
+  "step_reopened_valid": true,
+  "step_reopened_solid_count": 1
+}
